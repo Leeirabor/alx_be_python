@@ -1,7 +1,7 @@
 
 
 
-size = int(input("Enter the size of the pattern"))
+positive_intiger = int(input("Enter the size of the pattern: "))
 row = 0
 
 while  row < size:
@@ -9,6 +9,7 @@ while  row < size:
         print ("*",end="")
         size + 1
     print ()
-    row += 1
+    row +=4
+    
 
     
