@@ -1,4 +1,3 @@
-Shopping_list = []
 
 def display_menu():
     print("Shopping List Manager")
@@ -26,13 +25,12 @@ def main():
                 shopping_list.remove(item)
                 print(f"'{item}' has been removed.")
             else:
-                print(f"'{item}' is not in your shopping list")  
-            
-            
+                print(f"'{item}' is not in your shopping list")
+
         elif choice == '3':
-            # Display the shopping list
-            
+            # Display the shopping lit
             print (shopping_list)
+            
         elif choice == '4':
             print("Goodbye!")
             break
